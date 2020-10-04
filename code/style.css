@@ -1,0 +1,109 @@
+body { 
+width: 100%;
+margin: 0;
+background-color: rgb(255, 255, 255);
+}
+
+/*** HEADER ***/ 
+header { 
+background-image: linear-gradient(rgba(90, 90, 90, 0), rgba(255, 255, 255, 0.199)), url('../assets/beach.jpg');
+background-color:rgb(109, 108, 108);
+background-size: cover;
+background-repeat: no-repeat;
+height: 550px;
+position: relative;
+display: flex;
+}
+
+
+.header-links-container {
+display: flex;
+justify-content: space-between;
+position: absolute;
+transform: translate(925px, 140px);
+width: 300px;
+}
+  
+.header-icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 75px;
+height: 75px;
+}
+
+.icon-linkedin, .icon-github, .icon-stackoverflow { 
+background-repeat: no-repeat;
+background-position: center;
+background-size: 50%;
+cursor: pointer;
+border: #ffffff solid 2px;
+border-radius: 50%;
+}
+  
+header .icon-linkedin, header .icon-stackoverflow, header .icon-github {
+width: 100%;
+height: 100%;
+}
+
+.icon-linkedin { 
+background-image: url('../assets/linkedin.svg');
+}
+
+.icon-stackoverflow { 
+background-image: url('../assets/stackoverflow.svg');
+}
+
+.icon-github { 
+background-image: url('../assets/github.svg');
+}
+
+.header-name-description { 
+flex-direction: column;
+width: 45%;
+margin-left: 150px;
+margin-top: 100px;
+padding: 50px;
+}
+
+.header-name-description h4 {
+font-family: 'Montserrat', sans-serif ;
+font-size: 22px;
+font-weight: 300;
+letter-spacing: 1.2px;
+color: #ffffff;;
+margin: 5px 10px;
+}
+
+.highlight { 
+font-family: 'Montserrat';
+font-weight: 550;
+}
+
+h1 { 
+font-family: 'Montserrat', sans-serif;
+text-transform: lowercase;
+color: #ffffff;
+font-size: 83px;
+margin: 5px 0;
+}
+
+.header-name-description p { 
+color: #ffffff;
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+font-size: 26px;
+font-weight: 700;
+overflow: hidden;
+}
+
+.profile-pic {
+position: absolute;
+top: 275px;
+right: 200px;
+border: solid 2px #ffffff;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+}
+

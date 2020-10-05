@@ -7,6 +7,7 @@
     <meta name="description" content="Sofia Vaz Sousa's Portfolio">
     <meta name="keywords" content="Portfolio, Frontend, Web design, Developer">
     <meta name="author" content="Sofia Vaz Sousa">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -20,7 +21,7 @@
         </a>
 
          <a class="header-icon" href="https://github.com/sofiavazs" tabindex="0" role="button"
-        aria-pressed="false" aria-label="GitHub" target="_blank" rel="noreferrer">
+        aria-pressed="false" aria-label="GitHub Profile" target="_blank" rel="noreferrer">
         <div class="icon-github">
         </div>
         </a>
@@ -33,15 +34,67 @@
     </div>
 
     <div class="header-name-description">
-        <h4>PORTFOLIO: <span class="highlight">Sofia Vaz Sousa</span></h4>
+        <h4>PORTFOLIO: <span class="name-highlight">Sofia Vaz Sousa</span></h4>
         <h1>Frontend Developer</h1>
         <p>with a background in healthcare</p>
       </div>
     <img class="profile-pic" src="../assets/sofia.jpg" alt="Picture of Sofia">
     
 </header>
-
 <body>
+    <!---SUMMARY SECTION----->
+
+    <section class="about-me">
+        <div class="summary">
+            <img class="icon-p" src="../assets/icon-p.svg"></img>
+            <p>Hello there! I'm a frontend developer, who previously worked as a nurse.</p>
+            <p>Programming was always an interest from young age and since I'm eager and passionate about learning I took the challenge!
+                I’m all about working with both design and problem solving to create meaningful products 
+                that people will love to use and make their lives easier!
+            </p>
+
+        </div>
+    </section>
+
+    <!---TECH SECTION--->
+
+    <section class="tech">
+        <h2>Tech</h2>
+        <div class="tech-description">
+                <p>HTML, CSS, 
+                    <span class=highlight>Flexbox</span>, 
+                    <span class="highlight">JavaScript</span>, 
+                    Responsive Design, 
+                    <span class="highlight">React</span>, 
+                    React Hooks, Redux, Node.js, Mongo DB, Figma,
+                    Web Accessibility, API:s, Mob-programming, Pair-programming, Github.</p>
+        </div>
+    </section>
+
+    <!---FEATURED PROJECTS--->
     
+    <section class="featured-projects">
+        <h2>Featured Projects</h2>
+
+        <article style="background-image: url(../assets/skincut.png)"> 
+              <a href="https://skincutmagazine.netlify.com/">
+              <div class="background-mask">
+                <h3>The Skin Cut Magazine</h3>
+              </div>
+                <p><span class="highlight">Magazine Site.</span>
+                Responsive website built using Flexbox.
+                <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-news-site"><span class="highlight"> >></a>
+                </p>
+              </a>
+                <div class="project-tech">
+                    <div>HTML</div>
+                    <div>CSS</div>
+                    <div>Responsive</div>
+                    <div>Flexbox</div>
+                </div>
+            </article>
+
+
+    </section>    
 </body>
 </html>

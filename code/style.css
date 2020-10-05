@@ -1,12 +1,13 @@
 body { 
 width: 100%;
 margin: 0;
-background-color: rgb(255, 255, 255);
+background-color:#ffffff;
+font-family: 'Roboto';
 }
 
 /*** HEADER ***/ 
 header { 
-background-image: linear-gradient(rgba(90, 90, 90, 0), rgba(255, 255, 255, 0.199)), url('../assets/beach.jpg');
+background-image: linear-gradient(rgba(53, 52, 52, 0.5), rgba(255, 255, 255, 0.5)), url('../assets/hydrangea.jpg');
 background-color:rgb(109, 108, 108);
 background-size: cover;
 background-repeat: no-repeat;
@@ -15,6 +16,9 @@ position: relative;
 display: flex;
 }
 
+.name-highlight { 
+ font-weight: 500;
+}
 
 .header-links-container {
 display: flex;
@@ -75,7 +79,7 @@ color: #ffffff;;
 margin: 5px 10px;
 }
 
-.highlight { 
+.name-highlight { 
 font-family: 'Montserrat';
 font-weight: 550;
 }
@@ -106,4 +110,162 @@ border-radius: 50%;
 width: 300px;
 height: 300px;
 }
+
+/*** ABOUT ME ***/
+
+.about-me { 
+width: 100%;
+display: flex;
+text-align: center;
+align-items: center;
+background-color:#ffffff;
+}
+
+.summary { 
+width: 62%;
+padding-top: 80px;
+padding-bottom: 80px;
+margin: 0 auto;
+}
+
+.icon-p {
+position: relative;
+float: left;
+transform: translate(53%, 295%);
+}
+
+p { 
+text-align: center;
+font-family: "Montserrat" sans-serif;
+font-size: 22px;
+line-height: 1.5;
+}
+
+/*** TECH ***/
+
+.tech { 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #f6f4fc;
+}
+
+.tech-description { 
+width: 65%;
+padding: 20px;
+}
+
+.highlight { 
+color:#ee1450;
+font-weight:bold;
+}
+
+h2 { 
+ font-family: 'Montserrat';
+ text-transform: uppercase;
+ font-size: 30px;
+ font-weight: bold;
+ padding: 5px;
+ margin: 30px 0 0;
+ background-color:#ee1450;
+ width: fit-content;
+ border-radius: 8px;
+ color: #ffffff;
+}
+
+/*** FEATURED PROJECTS ***/
+
+.featured-projects { 
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+background-color: #ffffff;
+text-decoration: none;
+}
+
+article { 
+flex-basis: 20%;
+margin-top: 25px;
+justify-content: space-evenly;
+background-size: cover;
+background-position: center;
+height: 200px;
+box-shadow: 10px 0px 10px 0px rgba(177, 176, 177, 0.5);
+}
+
+article a {
+text-decoration: none;
+}
+
+article div { 
+margin-bottom:10px;
+text-align: center;
+}
+
+article a:visited { 
+color: black;
+}
+
+.background-mask {
+background-color: rgba(255, 255, 255, 0.705);
+height: 100%;
+opacity: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.background-mask:hover {
+opacity: 0.3;
+transition: opacity 0.5s linear;
+-webkit-transition: opacity 0.5s linear;
+-moz-transition: opacity 0.5s linear;
+-ms-transition: opacity 0.5s linear;
+-o-transition: opacity 0.5s linear;
+cursor: pointer;
+}
+
+h3 {
+font-family: "Montserrat" sans-serif;
+font-size: 25px;
+text-align: center;
+letter-spacing: 2px;
+color: #ee1450;
+}
+
+.featured-projects a:hover{ 
+color:#ee1450 ;
+}
+
+.live-repo { 
+display: inline-flex;
+text-align: center;
+margin: 10px;
+}
+
+.project-tech { 
+display: grid;
+grid-template-columns: repeat(3,1fr);
+font-size: 16px;
+}
+
+.project-tech div {
+margin: 3px;
+padding: 2px 2px;
+text-align: center;
+border-radius: 5px;
+background-color: #f6f4fc;
+align-self: center;
+}
+
+
+    
+
+
+
 

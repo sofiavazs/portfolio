@@ -15,9 +15,10 @@ header {
   background-color: rgb(109, 108, 108);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 550px;
   position: relative;
   display: flex;
+  width: 100%;
+  height: 500px;
 }
 
 .name-highlight {
@@ -25,19 +26,15 @@ header {
 }
 
 .header-links-container {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
   position: absolute;
-  transform: translate(925px, 140px);
-  width: 300px;
+  transform: translate(90%,50%)
 }
 
 .header-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
 
 .icon-linkedin,
@@ -47,7 +44,7 @@ header {
   background-position: center;
   background-size: 50%;
   cursor: pointer;
-  border: #ffffff solid 2px;
+  border: #ffffff solid 3px;
   border-radius: 50%;
 }
 
@@ -71,20 +68,20 @@ header .icon-github {
 }
 
 .header-name-description {
+  display: flex;
   flex-direction: column;
-  width: 45%;
-  margin-left: 150px;
-  margin-top: 100px;
-  padding: 50px;
+  width: 100%;
+  margin-top: 150px;
+  padding-left:50px;
+  
 }
 
-.header-name-description h4 {
+h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 22px;
+  font-size: 13px;
   font-weight: 300;
   letter-spacing: 1.2px;
-  color: #ffffff;
-  margin: 5px 10px;
+  color: #fff;
 }
 
 .name-highlight {
@@ -92,31 +89,38 @@ header .icon-github {
   font-weight: 550;
 }
 
-h1 {
+  h2  {
   font-family: "Montserrat", sans-serif;
   text-transform: lowercase;
   color: #ffffff;
-  font-size: 83px;
+  font-size: 40px;
   margin: 5px 0;
+}
+
+h5 { 
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  color: #fff;
 }
 
 .header-name-description p {
   color: #ffffff;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 700;
-  overflow: hidden;
 }
 
 .profile-pic {
   position: absolute;
-  top: 275px;
-  right: 200px;
-  border: solid 2px #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12%, 60%);
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  border: solid 2px #fff;
 }
 
 /*** ABOUT ME ***/
@@ -130,20 +134,17 @@ h1 {
 }
 
 .summary {
-  width: 62%;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin: 0 auto;
+  width: 100%;
+  margin: 30px;
+  padding: 10px;
 }
 
-.icon-p {
-  position: relative;
-  float: left;
-  transform: translate(53%, 295%);
+.icon-p { 
+  padding: 5px;
 }
 
 p {
-  text-align: center;
+  text-align: left;
   font-family: "Montserrat" sans-serif;
   font-size: 17px;
   line-height: 1.5;
@@ -155,14 +156,18 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   background-color: #f6f4fc;
 }
 
+.tech p { 
+  text-align: center;
+}
+
 .tech-description {
-  width: 65%;
-  padding: 20px;
+  width: 70%;
+  padding: 15px;
 }
 
 .highlight {
@@ -170,64 +175,58 @@ p {
   font-weight: bold;
 }
 
-h2 {
+h3 {
   font-family: "Montserrat";
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 22px;
   font-weight: bold;
   padding: 5px;
-  margin: 30px 0 0;
   background-color: #ee1450;
-  width: fit-content;
   border-radius: 8px;
   color: #ffffff;
 }
 
-/*** FEATURED PROJECTS ***/
 
-.featured-projects { 
-display: flex;
-flex-direction: column;
-align-items: center;
-height: auto;
-width: 100%;
-padding: 50px 10px;
-margin: 0 auto;
+
+.featured-projects, .other-projects, .blog { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
 }
 
+/*** FEATURED PROJECTS ***/
+
 .featured-projects-container {
-display: flex;
-width: 80%;
-flex-direction: row;
-justify-content: space-evenly;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project-card {
-display: flex;
-flex-direction: column;
-font-size: 20px;
-margin: 50px 10px;
-padding: 25px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: 'Roboto' sans-serif;
+  margin: 15px;
+  padding: 10px;
 }
 
-article {
-  margin-top: 25px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 280px;
-  width: 450px;
-  box-shadow: 10px 0px 10px 0px rgba(177, 176, 177, 0.5);
+.card-image { 
+  width: 100%;
+}
+
+.project-description p {
+  display: inline-block
 }
 
 article a {
   text-decoration: none;
 }
 
-article div {
-  margin-bottom: 10px;
-  text-align: center;
+article a:hover {
+  color: #ee1450;
 }
 
 article a:link,
@@ -235,10 +234,10 @@ a:visited {
   color: black;
 }
 
-.background-mask {
-  background-color: #f9f7fd;
+/* .background-mask {
+  background-color: #353535d2;
   height: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -246,38 +245,27 @@ a:visited {
 }
 
 .background-mask:hover {
-  opacity: 0.2;
+  opacity: 0;
   transition: opacity 0.5s linear;
   -webkit-transition: opacity 0.5s linear;
   -moz-transition: opacity 0.5s linear;
   -ms-transition: opacity 0.5s linear;
   -o-transition: opacity 0.5s linear;
   cursor: pointer;
-}
+} */
 
-h3 {
+h4 {
   font-family: "Montserrat" sans-serif;
   font-size: 25px;
   text-align: center;
   letter-spacing: 2px;
-  color: #ee1450;
-}
-
-.featured-projects a:hover {
-  color: #ee1450;
-}
-
-.live-repo {
-  display: inline-flex;
-  text-align: center;
-  margin: 10px;
+  color:#f1e6ff;
 }
 
 .project-tech {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  font-size: 14px;
-  margin: 10px;
+  font-size: 9px;
 }
 
 .project-tech div {
@@ -288,3 +276,50 @@ h3 {
   background-color: #f6f4fc;
   align-self: center;
 }
+
+/*** OTHER PROJECTS ***/
+
+.other-projects-container {
+display: flex;
+width: 100%;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.other-projects h4{
+  background-color: #fff;
+  color: #ee1450;
+  padding-top: 50px;
+}
+
+
+.other-projects-details { 
+  padding: 20px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.other-projects-details p {
+  text-decoration: none;
+}
+
+
+/*** BLOG ***/
+
+.blog {
+background-color: #f6f4fc;
+}
+
+.blog-container {
+  display: flex;
+  width: 100%;
+}
+
+.blog-post img { 
+  width: 75%;
+  height: 50%;
+  margin: 20px;
+  padding: 25px;
+}
+
+

@@ -89,7 +89,7 @@ h1 {
   font-weight: 550;
 }
 
-  h2  {
+h2  {
   font-family: "Montserrat", sans-serif;
   text-transform: lowercase;
   color: #ffffff;
@@ -97,12 +97,6 @@ h1 {
   margin: 5px 0;
 }
 
-h5 { 
-  font-family: "Montserrat", sans-serif;
-  font-size: 22px;
-  margin: 0;
-  color: #fff;
-}
 
 .header-name-description p {
   color: #ffffff;
@@ -150,12 +144,18 @@ p {
   line-height: 1.5;
 }
 
-/*** TECH ***/
-
-.tech {
+.standard-section { 
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/*** TECH ***/
+
+.tech {
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: #f6f4fc;
@@ -184,17 +184,6 @@ h3 {
   background-color: #ee1450;
   border-radius: 8px;
   color: #ffffff;
-}
-
-
-
-.featured-projects, .other-projects, .blog { 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: auto;
-  padding: 10px;
-  margin: 0 auto;
 }
 
 /*** FEATURED PROJECTS ***/
@@ -256,10 +245,17 @@ a:visited {
 
 h4 {
   font-family: "Montserrat" sans-serif;
-  font-size: 25px;
+  font-size: 17px;
   text-align: center;
   letter-spacing: 2px;
-  color:#f1e6ff;
+  color:#ee1450;
+}
+
+h5 { 
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  margin: 0;
+  color: #fff;
 }
 
 .project-tech {
@@ -296,11 +292,14 @@ flex-wrap: wrap;
 .other-projects-details { 
   padding: 20px;
   font-size: 17px;
+}
+
+.other-projects-details a {
   text-decoration: none;
 }
 
-.other-projects-details p {
-  text-decoration: none;
+.other-projects-details a:hover {
+  color: #ee1450;
 }
 
 
@@ -308,18 +307,68 @@ flex-wrap: wrap;
 
 .blog {
 background-color: #f6f4fc;
+padding: 20px;
 }
 
-.blog-container {
+.blog-container, .more-thoughts-container {
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
 
-.blog-post img { 
-  width: 75%;
-  height: 50%;
-  margin: 20px;
-  padding: 25px;
+.blog-container img { 
+  width: 80%;
+    margin-left: 30px;
 }
+
+.blog-post-card a, a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-post-card, .more-thoughts-article a:hover { 
+  color: #ee1450;
+}
+
+.blog-post h4 {
+  text-align: left;
+  padding-left: 25px;
+  margin: 15px 0px 0px 0px;
+}
+
+.blog-post-headline {
+  font-size: 21px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 18px;
+}
+
+.blog-article { 
+  padding: 10px;
+  margin: 10px;
+}
+
+/*** SKILLS ***/
+
+.skills { 
+  background-color: #f6f4fc;
+  padding:20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-container div {
+  margin: 10px;
+}
+
+
+
+
 
 

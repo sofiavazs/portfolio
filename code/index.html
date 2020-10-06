@@ -12,47 +12,41 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<header>
-    <div class="header-links-container">
-        <a class="header-icon" href="https://www.linkedin.com/in/sofiavazsousa" tabindex="0" role="button"
-        aria-pressed="false" aria-label="Linkedin profile" target="_blank" rel="noreferrer">
-        <div class="icon-linkedin">
-        </div>
-        </a>
-
-         <a class="header-icon" href="https://github.com/sofiavazs" tabindex="0" role="button"
-        aria-pressed="false" aria-label="GitHub Profile" target="_blank" rel="noreferrer">
-        <div class="icon-github">
-        </div>
-        </a>
-
-        <a class="header-icon" href="https://stackoverflow.com/users/14061718/sofia" tabindex="0" role="button"
-        aria-pressed="false" aria-label="Stackoverflow" target="_blank" rel="noreferrer">
-        <div class="icon-stackoverflow">
-        </div>
-        </a>     
-    </div>
-
-    <div class="header-name-description">
-        <h4>PORTFOLIO: <span class="name-highlight">Sofia Vaz Sousa</span></h4>
-        <h1>Frontend Developer</h1>
-        <p>with a background in healthcare</p>
-      </div>
-    <img class="profile-pic" src="../assets/sofia.jpg" alt="Picture of Sofia">
-    
-</header>
 <body>
+    <header>
+        <div class="header-links-container">
+            <a class="header-icon" href="https://www.linkedin.com/in/sofiavazsousa" tabindex="0" role="button" aria-pressed="false" aria-label="Linkedin profile" target="_blank" rel="noreferrer">
+                <div class="icon-linkedin"></div>
+            </a>
+
+            <a class="header-icon" href="https://github.com/sofiavazs" tabindex="0" role="button" aria-pressed="false" aria-label="GitHub Profile" target="_blank" rel="noreferrer">
+                <div class="icon-github"></div>
+            </a>
+
+            <a class="header-icon" href="https://stackoverflow.com/users/14061718/sofia" tabindex="0" role="button" aria-pressed="false" aria-label="Stackoverflow" target="_blank" rel="noreferrer">
+                <div class="icon-stackoverflow"></div>
+            </a>     
+        </div>
+
+        <div class="header-name-description">
+            <h4>PORTFOLIO: <span class="name-highlight">Sofia Vaz Sousa</span></h4>
+            <h1>Frontend Developer</h1>
+            <p>with a background in healthcare</p>
+        </div>
+        <img class="profile-pic" src="../assets/sofia.jpg" alt="Picture of Sofia">
+        
+    </header>
     <!---SUMMARY SECTION----->
 
     <section class="about-me">
         <div class="summary">
             <img class="icon-p" src="../assets/icon-p.svg"></img>
             <p>Hello there! I'm a frontend developer, who previously worked as a nurse.</p>
-            <p>Programming was always an interest from young age and since I'm eager and passionate about learning I took the challenge!
+            <p>
+                Programming was always an interest from young age and since I'm eager and passionate about learning I took the challenge!
                 I’m all about working with both design and problem solving to create meaningful products 
                 that people will love to use and make their lives easier!
             </p>
-
         </div>
     </section>
 
@@ -61,40 +55,115 @@
     <section class="tech">
         <h2>Tech</h2>
         <div class="tech-description">
-                <p>HTML, CSS, 
-                    <span class=highlight>Flexbox</span>, 
-                    <span class="highlight">JavaScript</span>, 
-                    Responsive Design, 
-                    <span class="highlight">React</span>, 
-                    React Hooks, Redux, Node.js, Mongo DB, Figma,
-                    Web Accessibility, API:s, Mob-programming, Pair-programming, Github.</p>
+            <p>HTML, CSS, 
+                <span class=highlight>Flexbox</span>, 
+                <span class="highlight">JavaScript</span>, 
+                Responsive Design, 
+                <span class="highlight">React</span>, 
+                React Hooks, Redux, Node.js, Mongo DB, Figma,
+                Web Accessibility, API:s, Mob-programming, Pair-programming, Github.
+            </p>
         </div>
     </section>
 
     <!---FEATURED PROJECTS--->
-    
     <section class="featured-projects">
         <h2>Featured Projects</h2>
+        <div class="featured-projects-container">
+            <div class="project-card">
+                <article style="background-image: url(../assets/skincut.png)"> 
+                     <a href="https://skincutmagazine.netlify.com/">
+                        <div class="background-mask">
+                            <h3>The Skin Cut Magazine</h3>
+                        </div>
+                    </a>
+                
+                    <p>
+                        <span class="highlight">Magazine Site.</span>
+                        Responsive website built using Flexbox.
+                        <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-news-site"><span class="highlight"> >></a>
+                    </p>
+                    <div class="project-tech">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>Responsive</div>
+                        <div>Flexbox</div>
+                    </div>
+                </article>
+            </div>
 
-        <article style="background-image: url(../assets/skincut.png)"> 
-              <a href="https://skincutmagazine.netlify.com/">
-              <div class="background-mask">
-                <h3>The Skin Cut Magazine</h3>
-              </div>
-                <p><span class="highlight">Magazine Site.</span>
-                Responsive website built using Flexbox.
-                <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-news-site"><span class="highlight"> >></a>
-                </p>
-              </a>
-                <div class="project-tech">
-                    <div>HTML</div>
-                    <div>CSS</div>
-                    <div>Responsive</div>
-                    <div>Flexbox</div>
-                </div>
-            </article>
+            <div class="project-card">
+                <article style="background-image: url(../assets/molecules.png)"> 
+                     <a href="https://themolecules.netlify.com/">
+                        <div class="background-mask">
+                            <h3>MOLECULES</h3>
+                        </div>
+                    </a>
+                
+                    <p>
+                        <span class="highlight">Business Site.</span>
+                        Responsive business site with hero video, HTML form, JavaScript accordion and flexbox layout.
+                        <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-business-site"><span class="highlight"> >></a>
+                    </p>
+                    <div class="project-tech">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>Responsive</div>
+                        <div>Flexbox</div>
+                        <div>DOM</div>
+                    </div>
+                </article>
+            </div>
 
+            <div class="project-card">
+                <article style="background-image: url(../assets/margeritabot.png)"> 
+                     <a href="https://margeritabot.netlify.com/">
+                        <div class="background-mask">
+                            <h3>INSTAPIZZA</h3>
+                        </div>
+                    </a>
+                
+                    <p>
+                        <span class="highlight">Pizza Bot</span>
+                        An app that helps you order pizza, built in JavaScript.
+                        <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-pizza-bot"><span class="highlight"> >></a>
+                    </p>
+                    <div class="project-tech">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>Pair-programming</div>
+                        <div>DOM</div>
+                    </div>
+                </article>
+            </div>
 
+            <div class="project-card">
+                <article style="background-image: url(../assets/cluedo.png)"> 
+                     <a href="https://cluendo.netlify.com/">
+                        <div class="background-mask">
+                            <h3>CLUE & DO</h3>
+                        </div>
+                    </a>
+                
+                    <p>
+                        <span class="highlight">Clue & Do</span>
+                        Game in JavaScript inspired on Cluedo ®
+                        <a target="_blank" rel="noreferrer" href="https://github.com/sofiavazs/project-cluedo"><span class="highlight"> >></a>
+                    </p>
+                    <div class="project-tech">
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>JavaScript</div>
+                        <div>Pair-programming</div>
+                        <div>DOM</div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
     </section>    
+
 </body>
 </html>

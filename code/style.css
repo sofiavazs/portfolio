@@ -28,7 +28,8 @@ header {
 .header-links-container {
   display: inline-flex;
   position: absolute;
-  transform: translate(90%, 50%);
+  top: 10%;
+  right: 10%;
 }
 
 .header-icon {
@@ -104,9 +105,8 @@ h2 {
 
 .profile-pic {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-12%, 60%);
+  top: 70%;
+  right: 10%;
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -134,7 +134,7 @@ h2 {
 }
 
 p {
-  text-align: left;
+  text-align: justify;
   font-family: "Montserrat" sans-serif;
   font-size: 17px;
   line-height: 1.5;
@@ -243,7 +243,6 @@ h4 {
   font-family: "Montserrat" sans-serif;
   font-size: 17px;
   text-align: center;
-  letter-spacing: 2px;
   color: #ee1450;
 }
 
@@ -459,8 +458,8 @@ h6 {
 @media screen and (min-width: 1024px) {
 
   .header-links-container {
-    transform: translate(840px, 69px);
-    width: 300px;
+    top: 10%;
+    right: 8%;
     }
 
   .header-icon {
@@ -484,7 +483,7 @@ h6 {
   }
 
   .profile-pic {
-    transform: translate(45%, -6%);
+    transform: translate(18%, -41%);
     width: 300px;
     height: 300px;
   }
@@ -492,9 +491,13 @@ h6 {
   /*** ABOUT ME ***/
 
   .summary {
-    width: 60%;
-    padding-left: 275px;
-    padding-right: 275px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .summary p { 
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
   }
 
   /*** TECH ***/
@@ -516,7 +519,7 @@ h6 {
 
   .featured-projects-container {
     display: flex;
-    width: 80%;
+    width: 85%;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -524,11 +527,12 @@ h6 {
 
   .project-card {
     margin-top: 25px;
-    width: 450px;
+    width: 370px;
   }
 
   .project-card p { 
     font-size: 25px;
+    text-align: left;
   }
 
   h4 {
@@ -568,7 +572,7 @@ h6 {
 
 }
 
-  .tech-description p{
+  .tech-description p {
     font-size: 30px;
   }
 
@@ -615,13 +619,13 @@ h6 {
   /*** SKILLS ***/
 
   .skills-container {
-    font-size: 25px; 
+    font-size: 23px; 
     justify-content: space-evenly;
   }
 
   .skills-container div {
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .more-links-icon {
@@ -644,15 +648,123 @@ h6 {
   font-size: 30px;
 }
 
-  
+}
 
+@media screen and (min-width: 768px) and (max-width:1023px){
 
+  .header-links-container {
+    top: 10%;
+    right: 10%;
 
+  }
 
+  .profile-pic {
+    top: 65%;
+    right: 12%;
+    width: 200px;
+    height: 200px;
+  }
 
+  .header-name-description {
+    width: 50%;
+    margin-top: 150px;
+    padding-left: 100px;
+  }
 
+  h1 {
+    font-size: 18px;
+  }
 
+  /*** FEATURED PROJECTS ***/
+
+  .featured-projects-container {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .project-card {
+    margin-top: 25px;
+    width: 267px;
+  }
+
+  .project-card p { 
+    font-size: 17px;
+    text-align: left;
+  }
+
+  .card-image {
+    box-shadow: 10px 0px 10px 0px rgba(177, 176, 177, 0.5);
+  }
+
+  /*** OTHER PROJECTS ***/
+
+  .other-projects-container {
+    width: 75%;
+  }
+
+  .other-projects-details {
+    padding: 5px;
+  }
+
+   /*** BLOG ***/
+
+  .blog {
+    justify-content: center;
+  }
+
+  .blog-container {
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .blog-post-card {
+    flex-basis: 40%;
+    padding: 8px;
+    justify-content: space-evenly;
+  }
+
+  .blog-article { 
+    padding:0px;
+    margin-left: 30px;
+  }
+
+  .blog-article p { 
+    font-size:15px;
+    text-align: left;
+  }
+
+  .blog-post h4 {
+    text-align: left;
+    margin-left: 3px;
+  }
+
+  .blog-post-headline {
+    font-size: 18px;
+    padding-left: 10px;
+  }
+
+  .more-thoughts-container {
+    width: 70%;
+    flex-direction: column;
+    padding: 20px 0px 50px;
+    margin-bottom: 50px;
+  }
+
+  .more-thoughts-container p {
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin: 0;
+  }
 
 }
+
+
+
+
+
 
 

@@ -591,7 +591,7 @@ h6 {
   }
 
   .blog-post-card {
-    flex-basis: 38%;
+    flex-basis: 35%;
     margin: 12px;
     padding: 8px;
     justify-content: space-evenly;

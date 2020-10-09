@@ -239,9 +239,23 @@ a:visited {
   height: 100%;
 }
 
+.project-card .image-overlay-text {
+  font-size: 20px;
+  font-family: "Montserrat" sans-serif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 33%;
+  left: 25%;
+  right: 26%;
+  
+}
+
 .image-overlay:hover {
   opacity: 0;
 }
+
 
 h5 {
   font-family: "Montserrat" sans-serif;
@@ -318,6 +332,7 @@ h3 {
 .blog-post-card a,
 a:link {
   color: #000;
+  text-decoration: none;
 }
 
 .blog-post-card,

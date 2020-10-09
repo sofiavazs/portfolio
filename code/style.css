@@ -497,17 +497,12 @@ h6 {
 
   /*** TECH ***/
 
-  .tech {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   .tech-description {
     width: 65%;
   }
 
   h4 { 
-    font-size: 30px;
+    font-size: 48px;
   }
 
   /*** FEATURED PROJECTS ***/
@@ -527,10 +522,6 @@ h6 {
   .project-card p { 
     font-size: 25px;
     text-align: left;
-  }
-
-  h4 {
-    font-size: 25px;
   }
 
   .project-tech {

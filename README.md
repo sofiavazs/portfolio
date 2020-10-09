@@ -19,15 +19,15 @@ For cross browser testing I tested it on Chrome, Safari, Firefox and Edge.
    W3C validator (https://validator.w3.org/)
 
 - Accessibility testing
-   Lighthouse in Chrome Dev Tools, score:
-   Screen reader with ChromeVox chrome extension
+   Lighthouse in Chrome Dev Tools, score: 96% accessibility, 100% best practices, 100% SEO.
+   Screen reader with ChromeVox chrome extension and Iphone voice over
 
 - Auditing 
-    Performed an audit using Wave (wave.webaim.org) and followed feedback to bring down alerts. Please see notes for further info on those.
+    Performed an audit using Wave (wave.webaim.org) and followed feedback to bring down alerts. No errors detected. 
 
 # Tech ⚡️
-HTML5
-CSS3
+- HTML5
+- CSS3
 
 # View it live 🔴
 https://sofiavazs.netlify.com

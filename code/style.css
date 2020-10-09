@@ -288,10 +288,6 @@ h3 {
   font-size: 17px;
 }
 
-.other-projects-details a {
-  text-decoration: none;
-}
-
 .other-projects-details a:hover {
   color: #ee1450;
 }
@@ -317,7 +313,6 @@ h3 {
 
 .blog-post-card a,
 a:link {
-  text-decoration: none;
   color: #000;
 }
 
@@ -526,8 +521,7 @@ h6 {
   }
 
   .project-card {
-    margin-top: 25px;
-    width: 370px;
+    width: 375px;
   }
 
   .project-card p { 
@@ -551,10 +545,11 @@ h6 {
   /*** OTHER PROJECTS ***/
 
   .other-projects-container {
-    width: 70%;
+    width: 80%;
     flex-direction: column;
     padding: 20px 0px 50px;
     margin-bottom: 50px;
+    margin-left: 190px;
   }
 
   .other-projects-details {

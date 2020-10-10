@@ -321,7 +321,6 @@ h3 {
 .more-thoughts-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 .blog-container img {
@@ -754,15 +753,11 @@ h6 {
   .more-thoughts-container {
     width: 70%;
     flex-direction: column;
+    text-align: center;
     padding: 20px 0px 50px;
     margin-bottom: 50px;
   }
 
-  .more-thoughts-container p {
-    padding-bottom: 5px;
-    font-size: 17px;
-    margin: 0;
-  }
 
 }
 

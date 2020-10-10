@@ -19,7 +19,7 @@ For cross browser testing I tested it on Chrome, Safari, Firefox and Edge.
    W3C validator (https://validator.w3.org/)
 
 - Accessibility testing
-   Lighthouse in Chrome Dev Tools, score: 96% accessibility, 100% best practices, 100% SEO.
+   Lighthouse in Chrome Dev Tools, score: 96% accessibility, 100% best practices, 100% SEO. (check assets for the image of the score)
    Screen reader with ChromeVox chrome extension and Iphone voice over
 
 - Auditing 

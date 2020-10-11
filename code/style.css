@@ -371,6 +371,7 @@ a:link {
 
 .skills-container div {
   margin: 10px;
+  flex-basis: 44%;
 }
 
 /*** FOR MORE SECTION ***/
@@ -618,11 +619,15 @@ h6 {
   .skills-container {
     font-size: 23px;
     justify-content: space-evenly;
+    width: 80%;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   .skills-container div {
     margin: 10px;
     padding: 5px;
+    flex-basis: 22%;
   }
 
   .more-links-icon {

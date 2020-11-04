@@ -523,7 +523,7 @@ h6 {
 
   .featured-projects-container {
     display: flex;
-    width: 85%;
+    width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -531,6 +531,7 @@ h6 {
 
   .project-card {
     width: 375px;
+    flex-basis:35%;
   }
 
   .project-card p {
